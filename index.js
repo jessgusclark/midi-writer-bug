@@ -8,7 +8,7 @@ track.addEvent(new MidiWriter.NoteEvent({pitch: ['E4'], duration: '1', velocity:
 
 // Metronome track
 const metronomeTrack = new MidiWriter.Track();
-metronomeTrack.addEvent(new MidiWriter.ProgramChangeEvent({ instrument: 115 }))
+metronomeTrack.addEvent(new MidiWriter.ProgramChangeEvent({ instrument: 115, channel: 2 }))
 const quarterNote = new MidiWriter.NoteEvent({pitch: ['B4'], duration: '4', velocity: 100, channel: 2})
 
 metronomeTrack.addEvent(quarterNote)

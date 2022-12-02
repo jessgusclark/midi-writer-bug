@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-midi-writer-js@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/midi-writer-js/-/midi-writer-js-2.1.0.tgz#326f4c3b718da7b7a6c2761cd34aa2b907ccaad2"
-  integrity sha512-VD/n4RnGAWy1oN66AGf5zvMi4/UXxvTCJcnLLu9M5zsHTOeUybbnGli70bnawWEZUJFnGiCeTDEGzLB7bClzEg==
+midi-writer-js@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/midi-writer-js/-/midi-writer-js-2.1.1.tgz#a8843d230bdb406783c34b879477ba5770e93a3a"
+  integrity sha512-kWa4nuFPzS1eSka/WbzxWyaP71gwsKjylbwrJ02UrvfdkUlXuhanoL8RY2FMDuZNMMMA/tMFaxRc9NqKxu5Biw==
   dependencies:
     tonal-midi "^0.69.7"
 
